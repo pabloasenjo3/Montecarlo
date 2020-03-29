@@ -3,7 +3,7 @@ A program that finds aproximations of pi following a method that used random num
 
 **It all starts with this dartboard:** 
 
-![](https://raw.githubusercontent.com/pabloasenjo3/Montecarlo/master/.edit/0.png)
+![](https://raw.githubusercontent.com/pabloasenjo3/Montecarlo/master/.edit/dartboard.png)
 
 The area of the circle is defined by 
 
