@@ -20,25 +20,27 @@ public:
 	}
 
 	void throwDart() {
+		
 		darts++;
 
 		//The dart must have coordinates x and y
 		//Those must be random numbers between -1 and 1, being any rational number
 
 		//Stores the proportion between 1 and the maximum value that std::rand() will ever return
+		//This proportion is used to transfrom random integers from 0 and RAND_MAX to from 0 to 1
 		static constexpr double fraction = 1.0 / static_cast<float>(RAND_MAX);
-
-		//float x = fraction * std::rand();
-		//float y = fraction * std::rand();
-
+		
 		//A circunference of r = 0.5 and P(0.5,0.5) is defined as 0.5^2 = (x - 0.5)^2 + (y - 0.5)^2 = 0.25
 		//Points inside that circle agree that 0.25 > (x - 0.5)^2 + (y - 0.5)^2
 
 		double a = fraction * std::rand() - 0.5;
 		double b = fraction * std::rand() - 0.5;
-		if (0.25 > (a * a + b * b)) inside_circle++;
+		//float x = fraction * std::rand();
+		//float y = fraction * std::rand();
+		//double a = x - 0.5;
+		//double b = y - 0.5;
 
-		//std::cout << darts << " , " << inside_circle << std::endl;
+		if (0.25 > (a * a + b * b)) inside_circle++;
 
 	}
 
