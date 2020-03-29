@@ -33,4 +33,4 @@ The way this program, at least until beta version, generates random numbers, is 
     std::rand();
 ```
 
-The program does not calculate darts coordinates like this at all, it does it in a slightly different way wich is explained inside the code. This piece of code just shows the functions wich are used to execute this.
+The program does not calculate darts coordinates like this at all, it does it in a slightly different way wich is explained inside the code. This piece of code just shows the functions wich are used.
