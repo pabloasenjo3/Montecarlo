@@ -1,2 +1,2 @@
 # Montecarlo
-A program that finds aproximations of pi following the Montecarlo random method.
+A program that finds aproximations of pi following a method that used random numbers.
