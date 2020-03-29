@@ -1,4 +1,4 @@
-# Montecarlo
+# Montecarlo (beta)
 A program that finds aproximations of pi following a method that used random numbers. The method used is called Montecarlo and it's very known for its simplicity.
 
 **It all starts with this dartboard:** 
