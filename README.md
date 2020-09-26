@@ -1,5 +1,5 @@
 # Montecarlo (beta)
-A program that finds aproximations of pi following a method that used random numbers. The method used is called Montecarlo and it's very known for its simplicity.
+A program that finds aproximations of π following a method that used random numbers. The method used is called Montecarlo and it's very known for its simplicity.
 
 **It all starts with this dartboard:** 
 
@@ -17,7 +17,7 @@ Thus, doing some basic math we get to
 
 ![](https://raw.githubusercontent.com/pabloasenjo3/Montecarlo/master/.edit/formula.png)
 
-Now the problem lies in our way to measure the whole square and the circle. That's when random numbers (darts) come to play. It's possible to consider the number of random darts on a surface a measure of its area.
+Now the problem lies in measuring the area of the whole square and the circle. That's when random numbers (darts) come to play. It's useful to consider the number of random "darts" on a surface an approximation of its area.
 
 ![](https://raw.githubusercontent.com/pabloasenjo3/Montecarlo/master/.edit/1.png)
 ![](https://raw.githubusercontent.com/pabloasenjo3/Montecarlo/master/.edit/2.png)
@@ -33,4 +33,4 @@ The way this program, at least until beta version, generates random numbers, is 
     std::rand();
 ```
 
-The program does not calculate darts coordinates like this at all, it does it in a slightly different way wich is explained inside the code. This piece of code just shows the functions wich are used.
+The program does not calculate darts coordinates like this at all, it does it in a slightly different way which is explained inside the code. This piece of code just shows the functions that are used.
